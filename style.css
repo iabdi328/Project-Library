@@ -1,0 +1,40 @@
+.grid-container{
+    display: grid;
+
+    grid-template-columns: 300px 300px 300px 300px 300px 300px;
+
+    margin-top: 80px;
+    gap: 20px;
+}
+
+
+
+.book-div{
+    text-align: center;
+    border: 2px solid black;
+}
+
+.rmvbook{
+    justify-self: flex-end;
+    align-self: center;
+}
+
+
+
+
+.modal {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.add-btn{
+    padding: 10px 10px 10px 10px;
+}
